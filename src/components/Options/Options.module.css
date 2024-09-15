@@ -1,0 +1,20 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 14px;
+    margin-bottom: 40px;
+    & button {
+        border: none;
+        background-color: transparent;
+        box-shadow: 0 5px 15px 0 green;
+            transition: 0.5s;
+            border-radius: 8px;
+           width: 150px; 
+           height: 30px;
+    }
+    & button:hover{
+        transform: translate(0, -3px);
+            box-shadow: 0 20px 30px 0 lightgreen;
+    }
+}
